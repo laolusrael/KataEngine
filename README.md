@@ -174,12 +174,3 @@ The project includes stubs and tests for various DSA topics:
 ### Other
 - Two Crystal Balls Problem
 - Maze Solver
-
-## Development Workflow
-
-### For Contributors
-
-1. **Fork and Clone** the repository
-2. **Generate Stubs**: `dotnet run --project KataEngine generate`
-3. **Implement Algorithm**: Work on generated files in `KataEngine/Dsa/day{N}/`
-4. **Run Tests**: Use filtered tests as indicated above.
