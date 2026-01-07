@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KataEngine": {
+      "commandName": "Project",
+      "commandLineArgs": "generate"
+    }
+  }
+}

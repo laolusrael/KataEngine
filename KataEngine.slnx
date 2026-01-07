@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KataEngine.Tests/KataEngine.Tests.csproj" Id="d898b87a-c11c-41ef-bf3e-c1f71339dba5" />
+  <Project Path="KataEngine/KataEngine.csproj" />
+</Solution>
