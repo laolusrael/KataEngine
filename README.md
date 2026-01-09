@@ -77,65 +77,6 @@ dotnet run --project KataEngine clear
    dotnet test --filter "ClassName=QuickSortTest"
    ```
 
-
-### Example Workflow
-
-```bash
-# 1. Generate algorithm stubs
-dotnet run --project KataEngine generate
-
-# 2. Implement an algorithm (e.g., BinarySearchList.cs)
-# Edit KataEngine/Dsa/day1/BinarySearchList.cs
-
-# 3. Test your implementation
-dotnet test --filter "ClassName=BinarySearchListTest"
-
-# 4. Format and verify
-dotnet format
-dotnet build
-```
-
-## Testing
-
-### Running All Tests
-
-Execute the complete test suite:
-
-```bash
-dotnet test
-```
-
-### Running Specific Algorithm Tests
-
-During development, run tests for only the algorithm you're working on:
-
-```bash
-# Binary Search
-dotnet test --filter "ClassName=BinarySearchListTest"
-
-# Sorting Algorithms
-dotnet test --filter "ClassName=BubbleSortTest"
-dotnet test --filter "ClassName=QuickSortTest"
-dotnet test --filter "ClassName=MergeSortTest"
-
-# Data Structures
-dotnet test --filter "ClassName=StackTest"
-dotnet test --filter "ClassName=QueueTest"
-dotnet test --filter "ClassName=SinglyLinkedListTest"
-
-# Graph Algorithms
-dotnet test --filter "ClassName=DfsTest"
-dotnet test --filter "ClassName=DjikstraListTest"
-```
-
-### Test Coverage
-
-View test coverage (requires additional tools like ReportGenerator):
-
-```bash
-dotnet test --collect:"XPlat Code Coverage"
-```
-
 ## Available Algorithms
 
 The project includes stubs and tests for various DSA topics:
